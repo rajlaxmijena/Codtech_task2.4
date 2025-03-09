@@ -1,0 +1,11 @@
+Dead Code Elimination
+
+def main():
+    print("This is the main function.")
+    unused_function()  # This function is never called
+
+def unused_function():
+    print("This function is never used.")
+
+if _name_ == "_main_":
+    main()
