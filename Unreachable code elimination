@@ -1,0 +1,11 @@
+def unreachable_code_elimination():
+    # This function contains unreachable code
+    return "This code is reachable"
+
+    # Unreachable code starts here
+    print("This code will never be executed")
+    return "This code is also unreachable"
+
+# Example usage
+result = unreachable_code_elimination()
+print(result)
