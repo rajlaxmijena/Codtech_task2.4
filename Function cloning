@@ -1,0 +1,11 @@
+Function Cloning
+
+def original_function(x):
+    return x * 2
+
+# Cloning the function
+cloned_function = original_function
+
+# Testing the cloned function
+result = cloned_function(5)
+print(result)  # Output: 10
